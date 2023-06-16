@@ -1,0 +1,23 @@
+/* Type Selector*/
+
+body{
+    color: cadetblue;
+    background-color: indianred;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Class Selector */
+.first{
+    color: black;
+}
+/* ID Selector */
+#eklist{
+    background-color: rgb(red, green, blue);
+}
+
+.large{
+    font-size: 30px;
+}
+
+a[href="http:/Upflairs.com"]{
+    color: darkgreen;
+}

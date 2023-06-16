@@ -1,0 +1,172 @@
+/* Define the global or root variables */
+:root{
+    --primaryColor:#213555;
+    --backgroundColor:#F5EFE7;
+    --primaryAccentColor:#4F709C;
+    --secondaryColor:#D8C4B6;
+    --whiteColor:white;
+    --blackColor:#222222;
+    --primaryFont:'Open Sans', sans-serif;
+    --navbarHeight: 3rem;
+    --cursiveFont:'Pacifico',cursive;
+
+
+}
+/* Main CSS */
+body{
+    background-color: var(--backgroundColor);
+    color: var(--primaryColor);
+    font-family: var(--primaryFont);
+    margin: 0 0 0;
+}
+a{
+    text-decoration: none;
+    color:var(var(--primaryColor));
+}
+a:hover{
+    color: var(--primaryAccentColor);
+}
+.navigation{
+    background-color: var(--whiteColor);
+    height:var(--navbarHeight);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.logo{
+    /* height:var(--navbarHeight); */
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    /* text-align: center; */
+    padding: 8px 20px;
+    /* width:7rem; */
+    width: 12rem;
+    
+}
+.logoimage{
+    padding: 8px;
+    height: 2rem;
+    /* float: left; */
+}
+.contactimage{
+    height: var(--navbarHeight);
+    height: 2rem;
+    padding: 8px;
+    margin-right: 40px;
+}
+.menuitems{
+    flex-grow:2;
+    text-align: center;
+}
+.menuitem{
+    margin: 20px;
+}
+
+/* Banner */
+.bannerLeft{
+    width: 50%;
+}
+.banner{
+    display: flex;
+    height: 450px;
+    background: linear-gradient(45deg,rgb(104, 121, 249),rgb(245, 245, 145));
+    filter: drop-shadow(0px 3px 4px grey);/* x,y,radius,color */
+    justify-content: space-around;
+    align-items: center;
+}
+.bannerImage{
+    height: 300px;
+    border-radius: 100%;
+}
+.greeting{
+    font-family: var(--cursiveFont);
+    font-size: xx-large;
+}
+.title{
+    font-size: 2.5rem;
+    color: white;
+}
+.titleSpan{
+    display: inline-block;
+    background-color: var(--primaryColor);
+    padding: 0.5rem;
+    margin: 5px 0px;
+    
+}
+.Description{
+    margin: 10px 0px;
+    line-height: 2rem;
+}
+.showCVButton{
+    background:linear-gradient(rgb(189, 189, 189),rgb(147, 165, 245));
+    padding: 10px 15px;
+    border-radius: 5px;
+    filter: drop-shadow(5px 5px 3px grey);
+}
+.showCVButton:hover{
+    background:linear-gradient(white,rgb(215, 215, 215));
+}
+
+/* Services Section */
+.services{
+    margin: 80px;
+    /* padding: 30px; */
+}
+.serviceText{
+    text-align: center;
+    text-transform: uppercase;
+}
+.textSubHeading{
+    color: var(--primaryAccentColor);
+    font-size: 1.25rem;
+    letter-spacing: 0.4rem;
+}
+.textHeading{
+    font-size: 2.5rem;
+}
+.serviceCards{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.serviceCard{
+    /* background-color: white; */
+    border: 2px solid grey;
+    border-radius: 2px;
+    filter: drop-shadow(1px 1px 2px #aaaaaa);
+    margin:10px;
+    padding: 25px;
+}
+.serviceCard:hover{
+    background-color: white;
+    filter: drop-shadow(3px 3px 8px grey);
+
+}
+.serviceIconDiv{
+    background-color: var(--primaryColor);
+    padding: 30px;
+    display: inline-block;
+    margin-bottom: 20px;       
+}
+.serviceIconDiv:hover{
+    background-color: var(--primaryAccentColor);
+}
+.serviceIcon{
+    font-size: 3rem;
+    color: white;
+}
+.serviceTitle{
+    font-size: 1.5rem;
+    margin: 20px 0px;
+}
+.serviceFeature{
+    font-size: 1rem;
+    margin: 10px 0px;
+}
+.serviceFeatureIcon{
+    font-size: 1rem;
+}
